@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PSP.iml" filepath="$PROJECT_DIR$/PSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticaHilos/PracticaHilos.iml" filepath="$PROJECT_DIR$/PracticaHilos/PracticaHilos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PruebaLanzarProceso/PruebaLanzarProceso.iml" filepath="$PROJECT_DIR$/PruebaLanzarProceso/PruebaLanzarProceso.iml" />
       <module fileurl="file://$PROJECT_DIR$/RepasoJava/RepasoJava.iml" filepath="$PROJECT_DIR$/RepasoJava/RepasoJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimulacionProcesoEstado/SimulacionProcesoEstado.iml" filepath="$PROJECT_DIR$/SimulacionProcesoEstado/SimulacionProcesoEstado.iml" />
     </modules>
   </component>
 </project>
