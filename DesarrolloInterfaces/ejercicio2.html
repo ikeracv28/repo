@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fanatismo por el Fútbol en Argentina</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <!-- encabezado -->
+  <header class="bg-success text-white text-center py-4">
+    <h1>Fanatismo por el Fútbol en Argentina</h1>
+    <p>Una pasión que se vive en cada cancha, en cada barrio y en cada corazón argentino</p>
+  </header>
+
+  <div class="container my-4">
+
+    <!-- imagen + introducción -->
+    <section class="mb-5">
+      <div class="text-center">
+        <!-- Imagen de portada mejor relacionada -->
+        <img src="https://images.pexels.com/photos/1084026/pexels-photo-1084026.jpeg" 
+             class="img-fluid rounded shadow" 
+             alt="Hinchas argentinos celebrando" width="500">
+      </div>
+      <div class="mt-4">
+        <h2>Bienvenidos al mundo del fútbol argentino</h2>
+        <p>
+          En Argentina, el fútbol es mucho más que un deporte: es cultura, identidad y pasión. 
+          Los estadios vibran con cánticos, banderas y emociones que trascienden generaciones. 
+          Desde los clásicos entre Boca y River hasta los festejos de la Selección, el fútbol 
+          une y divide con la misma intensidad.
+        </p>
+      </div>
+    </section>
+
+    <!-- lista -->
+    <section class="mb-5">
+      <div class="p-3 bg-warning-subtle border rounded">
+        <h3>Datos curiosos sobre el fútbol argentino</h3>
+        <ul>
+          <li>Argentina ha ganado 3 Copas del Mundo: 1978, 1986 y 2022.</li>
+          <li>Boca Juniors y River Plate protagonizan uno de los clásicos más intensos del mundo.</li>
+          <li>Diego Maradona y Lionel Messi son considerados leyendas vivientes.</li>
+          <li>El fútbol está presente en casi todos los barrios, con miles de clubes amateurs.</li>
+          <li>La Bombonera es uno de los estadios más emblemáticos del planeta.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- galería -->
+    <section class="mb-5">
+      <h2 class="mb-3">Momentos Icónicos del Fútbol Argentino</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="https://images.pexels.com/photos/1679639/pexels-photo-1679639.jpeg" class="card-img-top" alt="Maradona 1986">
+            <div class="card-body">
+              <h5 class="card-title">Maradona en 1986</h5>
+              <p class="card-text">El "Gol del Siglo" contra Inglaterra y la conquista de México 86.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="https://images.pexels.com/photos/1464214/pexels-photo-1464214.jpeg" class="card-img-top" alt="Messi campeón 2022">
+            <div class="card-body">
+              <h5 class="card-title">Messi en 2022</h5>
+              <p class="card-text">Capitán y líder, levantó la Copa del Mundo en Qatar 2022.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img src="https://images.pexels.com/photos/274152/pexels-photo-274152.jpeg" class="card-img-top" alt="La Bombonera llena">
+            <div class="card-body">
+              <h5 class="card-title">La Bombonera</h5>
+              <p class="card-text">El estadio de Boca Juniors, símbolo de la pasión argentina.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- formulario -->
+    <section class="mb-5">
+      <div class="p-4 bg-info-subtle border rounded">
+        <h2 class="mb-3">Únete a la comunidad futbolera</h2>
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Tu nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            <div class="col-md-6">
+              <label for="equipo" class="form-label">Equipo favorito</label>
+              <input type="text" class="form-control" id="equipo" placeholder="Ej: Boca, River, Racing...">
+            </div>
+            <div class="col-md-6">
+              <label for="correo" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="ejemplo@email.com">
+            </div>
+            <div class="col-md-6">
+              <label for="rol" class="form-label">Rol en el fútbol</label>
+              <select id="rol" class="form-select">
+                <option>Hincha</option>
+                <option>Jugador</option>
+                <option>DT</option>
+                <option>Árbitro</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-success">Registrarme</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- tabla -->
+    <section>
+      <h2 class="mb-3">Grandes Logros del Fútbol Argentino</h2>
+      <table class="table table-bordered table-striped shadow">
+        <thead class="table-dark">
+          <tr>
+            <th>Año</th>
+            <th>Título</th>
+            <th>Protagonista</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1978</td>
+            <td>Copa del Mundo</td>
+            <td>Selección Argentina - Mario Kempes</td>
+          </tr>
+          <tr>
+            <td>1986</td>
+            <td>Copa del Mundo</td>
+            <td>Selección Argentina - Diego Maradona</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>Copa del Mundo</td>
+            <td>Selección Argentina - Lionel Messi</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Copa América</td>
+            <td>Selección Argentina - Messi y compañía</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
