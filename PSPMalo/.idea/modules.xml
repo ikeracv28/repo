@@ -7,6 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/PruebaLanzarProceso/PruebaLanzarProceso.iml" filepath="$PROJECT_DIR$/PruebaLanzarProceso/PruebaLanzarProceso.iml" />
       <module fileurl="file://$PROJECT_DIR$/RepasoJava/RepasoJava.iml" filepath="$PROJECT_DIR$/RepasoJava/RepasoJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimulacionProcesoEstado/SimulacionProcesoEstado.iml" filepath="$PROJECT_DIR$/SimulacionProcesoEstado/SimulacionProcesoEstado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UD1-A1-ComprobarProcesos/UD1-A1-ComprobarProcesos.iml" filepath="$PROJECT_DIR$/UD1-A1-ComprobarProcesos/UD1-A1-ComprobarProcesos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UD1-A2-LanzarProceso/UD1-A2-LanzarProceso.iml" filepath="$PROJECT_DIR$/UD1-A2-LanzarProceso/UD1-A2-LanzarProceso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UD1-A3-LanzarProcesoArgumentos/UD1-A3-LanzarProcesoArgumentos.iml" filepath="$PROJECT_DIR$/UD1-A3-LanzarProcesoArgumentos/UD1-A3-LanzarProcesoArgumentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UD1-A4-LanzarProcesoEntradaSalida/UD1-A4-LanzarProcesoEntradaSalida.iml" filepath="$PROJECT_DIR$/UD1-A4-LanzarProcesoEntradaSalida/UD1-A4-LanzarProcesoEntradaSalida.iml" />
     </modules>
   </component>
 </project>
