@@ -66,7 +66,7 @@ class Program
             {
                 try
                 {
-                    Console.WriteLine("Elige una opción del menu: ");
+                    Console.WriteLine("Introduce un número: ");
                     double num = double.Parse(Console.ReadLine());
                     return num;
                 }
